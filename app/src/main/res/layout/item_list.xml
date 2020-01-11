@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/item_list_tv"
+        android:text="1"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="21dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="#eee"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</FrameLayout>
